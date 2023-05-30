@@ -8,7 +8,7 @@ int gpuUsage = 0;
 String staticData = "";
 
 void setup() {
-  Serial.begin(112500);
+  Serial.begin(112500); //there my be other buad rate
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0,0);
