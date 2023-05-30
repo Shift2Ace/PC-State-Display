@@ -1,12 +1,6 @@
-/*
- 1602 screen
-   3.3v
-   SDA --> 21
-   SCL --> 22
- */
 #include <LiquidCrystal_I2C.h>
 #include <string>
-LiquidCrystal_I2C lcd(0x27,16,2);
+LiquidCrystal_I2C lcd(0x27,16,2); //It may not be 0x27
 int cpuTemp  = 0;
 int cpuUsage = 0;
 int gpuTemp  = 0;
