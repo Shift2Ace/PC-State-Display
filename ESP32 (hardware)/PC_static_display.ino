@@ -1,5 +1,5 @@
 #include <LiquidCrystal_I2C.h>
-#include <string>
+//#include <string> //It maybe be need to use, IDK
 LiquidCrystal_I2C lcd(0x27,16,2); //It may not be 0x27
 int cpuTemp  = 0;
 int cpuUsage = 0;
